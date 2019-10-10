@@ -1,0 +1,8 @@
+Casual Users:
+-Ensure that you have all of the appropriate libraries installed (check the import statements at the top of the script)
+-Modify any parameters within train_params, directories, and misc_params near the bottom of the script. Avoid modifying any definitions unless you know what you're doing.
+-Ensure that the directories you input are in the same working directory as the script itself
+-Run the script
+
+Expert Users:
+In addition to modifying any parameters within train_params, directories, and misc_params, modify any of the definitions to your liking. 
