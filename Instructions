@@ -1,8 +1,8 @@
 Casual Users:
 -Ensure that you have all of the appropriate Python libraries installed (check the import statements at the top of the script)
--Modify any parameters within 'params' near the bottom of the script. Avoid modifying anything else unless you know what you're doing.
--Enter your image directories in 'directories'. Ensure that the directories you input are within the same working directory as the script itself
+-Modify parameters (near the bottom of the script). Avoid modifying anything else unless you know what you're doing.
+-Enter your image directories (near the bottom, too). Ensure that the directories you input are within the same working directory as the script itself
 -Run the script
 
 Expert Users:
-In addition to modifying any parameters within train_params, directories, and misc_params, modify any of the definitions to your liking. 
+In addition to modifying any parameters, modify any of the definitions to your liking. Good luck!
