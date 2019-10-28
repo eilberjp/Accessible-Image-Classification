@@ -350,8 +350,7 @@ def visualize(directory, model, params):
             axes[a].imshow(img, cmap='gray')  # show original image (grayscale)
         for layer in params['vis_layers']:
             heat_map = visualize_cam(model, layer, None, image.img_to_array(img))  # get the CAM heatmap
-            if params['color_mode'] == 'rgb' or params['color_mode'] == 'rgba':
-                heat_map = heat_map[:, :, 0]
+            heat_map = heat_map[:, :, 0]  # reformat for custom mapping and visualization
             heat_map = Image.fromarray(heat_map)  # convert to a PIL image
             # overlay heat map
             axes[a].imshow(heat_map, cmap=alpha_cmap)
